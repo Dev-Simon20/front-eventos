@@ -1,0 +1,51 @@
+
+.botoncards{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    left: 0;
+    height: 25px;
+}
+
+.Reg{
+    all: initial;
+    padding:  3px 15px;
+    border-radius: 10px;
+    background-color: #e7294f;
+    color: white;
+    font-family: Sansita;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Reg:hover{
+    
+}
+
+.Vb{
+    all: initial;
+    padding:  3px 15px;
+    border-radius: 10px;
+    background-color: #e7294f;
+    color: white;
+    font-family: Sansita;
+}
+.Vb:hover{
+    background-color: #e34161;
+}
+
+.Vd{
+    all: initial;
+    padding:  3px 15px;
+    border-radius: 10px;
+    color: white;
+    background-color:  #45204b;
+    font-family: Sansita;
+}
+
+.Vd:hover{
+   
+}

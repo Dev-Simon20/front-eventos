@@ -1,0 +1,82 @@
+
+.conten-login{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conten-log{
+   width: 50%;
+   min-height: 400px;
+   display: flex;
+   justify-content: space-between;
+   border: 1px solid rgb(129, 127, 127);
+   flex-wrap: wrap;
+   border-radius: 5px;
+   overflow: hidden;
+}
+
+.log-img{
+   width: 45%;
+   height: 400px;
+   
+}
+.log-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.log-inputs{
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   row-gap: 50px;
+   font-family: sansita;
+   color: #45204b;
+   min-width: 250px;
+}
+
+.log-inputs div{
+    width: 100%;
+    max-width: 250px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.log-inputs div input{
+    all: initial;
+    width: 100%;
+    height: 30px;
+    border: 1px solid #45204b;
+    padding-left: 10px;
+    box-sizing: border-box;
+    color: #45204b;
+    font-family: sansita;
+    margin-bottom: 5px;
+}
+.log-inputs div label{
+    font-size: 17px;
+}
+
+.log-inputs button{
+    all: initial;
+    width: 150px;
+    background-color:#e7294f ;
+    color: white;
+    height: 35px;
+    text-align: center;
+}
+
+@media screen and (max-width: 920px) {
+    .log-img{
+        display: none;
+     }
+     .conten-log{
+        justify-content: center;
+     }
+}

@@ -1,0 +1,84 @@
+/* *{
+  outline: 1px solid red;
+} */
+   .modalc{
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(129, 126, 126, 0.526);
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  .modal-containerc {
+    position: relative;
+    padding: 1rem;
+    width: 35%;
+    min-width: 300px;
+    max-width: 600px;
+    height: 200px;
+    overflow-y: auto;
+    border-radius: 8px;
+    background-color: aliceblue;
+  }
+  
+  .modal-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
+  
+  .modalc.is-open {
+    display: flex;
+  }
+
+  .contenpop{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  .contenpop i{
+    align-self: flex-start;
+    margin-left: 30px;
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 5px;
+    color: rgb(4, 118, 4);
+    background-color: rgb(169, 228, 169);
+  }
+  .popGen{
+    align-self: flex-start;
+    margin-left: 30px;
+    font-family: sansita;
+    color: #492558;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .contenpop .textop{
+    width: 90%;
+    text-align: start;
+    font-family: sansita;
+    color: #492558;
+    align-self: flex-start;
+    margin-left: 30px;
+  }
+  .contenpop button{
+    all: initial;
+    font-weight: 500;
+    font-family: sansita;
+    color: white;
+    background-color: #492558;
+    height: 30px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin-top: 10px;
+  }

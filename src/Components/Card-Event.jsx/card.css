@@ -1,0 +1,153 @@
+/* 
+rosado     #e7294f
+morado   #45204b
+amarillo  #f0b23f
+plomo #d9d9d9d
+ */
+/* *{
+   outline: 1px solid red;
+} */
+
+.Card{
+    width: 270px;
+    height: 540px;
+    font-family: Sansita;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 6px 6px 5px 4px rgba(209,209,209,0.74);
+    /* max-height: 500px; */
+
+}
+.cardHead{
+    width: 100%;
+    height: 270px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.imgEvento{
+   width: 100%; 
+   height: 100%;
+   object-fit: cover;
+   transition: 0.3s;
+}
+.imgEvento:hover{
+transform: scale(1.05);
+}
+
+ .cardFoot{
+  box-sizing: border-box;
+  height: 270px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  /* background-color: rgb(159, 124, 197); */
+ }
+.cf_fecha{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: #d9d9d9;
+   column-gap: 5px;
+   color: #45204b;
+}
+.cf_fecha i{
+   color:  #e7294f;
+   font-size: 20px;
+}
+.cf_fecha p{
+   font-weight: regular;
+   font-size: 16px;
+}
+
+.cf_tipo{
+   margin-top: 10px;
+   display: flex;
+   align-items:center;
+   column-gap: 5px;
+   padding-left: 20px;
+   color: #737373;
+   font-size: 15px;
+   user-select: none;
+   /* background-color: aqua; */
+   height: 30px;
+}
+.cf_tipo p{
+   /* color:rgb(52, 71, 33);
+   padding-top: 0;
+   text-align:start;
+   height: 18px; */
+   font-size: 18px;
+}
+.cf_tipo i{
+   background-color: #e7294f;
+   width: 20px;
+   height: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 40px;
+   padding: 5px;
+   color: white;
+   font-size: 12px;
+}
+ .c-nombre{
+    margin: 0;
+    padding-left: 20px;
+    text-align: start;
+    color:  #e7294f;
+    font-size: 18px;
+    font-weight:600;
+    margin-bottom: 2px;
+    overflow: hidden;
+    user-select: none;
+    line-height: 1.1;
+ }
+
+.cf_tl{
+   display: flex;
+   align-items: center;
+   column-gap: 5px;
+   padding-left: 20px;
+   color: #45204b;
+   position: absolute;
+   bottom: 50px;
+}
+#locacion-E{
+   bottom: 80px;
+}
+#fecha-E{
+   bottom: 55px;
+}
+
+
+.cf_tl i{
+   width: 20px;
+}
+.cf_tl p{
+   font-size: 12px;
+   box-sizing: border-box;
+   user-select: none;
+}
+
+
+.cont-mod{
+   margin-top: 8px;
+   display: flex;
+   flex-wrap: wrap;
+   column-gap: 5px;
+   row-gap: 3px;
+   padding-left: 20px;
+   margin-bottom: 10px;
+   max-height: 40px;
+   min-height: 10px;
+   overflow: hidden;
+}
+.modxc{
+   background-color: rgba(72, 22, 71, 0.18);
+   font-size: 9px;
+   border-radius: 6px;
+   color: #45204b;
+   padding: 0 4px;
+   user-select: none;
+   height: 15px;
+}
